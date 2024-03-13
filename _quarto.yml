@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "SoW"
+  site-url: https://datascience-thinking.github.io/SoW
+  description: "Tiny changes"
+  page-navigation: false
+
+  repo-url: https://github.com/datascience-thinking/SoW
+  repo-actions: [edit, issue]
+
+format:
+  html:
+    theme: cosmo #cyborg #cosmo #yeti #cosmo #solar
+    toc: true
+    #css: styles.css
+
