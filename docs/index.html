@@ -45,6 +45,7 @@ div.csl-indent {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -60,11 +61,11 @@ div.csl-indent {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 20,
   "language": {
     "search-no-results-text": "No results",
@@ -83,11 +84,40 @@ div.csl-indent {
 
 </head>
 
-<body>
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./assets/gdsp-icon.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">SoW</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/datascience-thinking/SoW" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -141,7 +171,7 @@ div.csl-indent {
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/datascience-thinking/SoW/edit/main/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/datascience-thinking/SoW/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full column-page-left" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -204,29 +234,32 @@ div.csl-indent {
 <p>Project and SoW Accountability lies with the organization’s/department’s leadership team that governs the (time &amp; work) of the project’s members. The responsibility is with the project lead having the relevant expertise to run the project.</p>
 </section>
 </section>
-<section id="background-and-context" class="level1 page-columns page-full">
+<section id="background-and-context" class="level1">
 <h1>Background and context</h1>
 <p>The aim of the GDSP SOW is to encourage teams to do disciplined research prior to commencing exploratory work; to ensure the project matches the needs of underlying questions and business decisions (i.e.&nbsp;the purpose).</p>
-
-<div class="no-row-height column-margin column-container"><div class="">
+<p>Exploratory work without clear objectives runs the risk of converging to a confusing cycle: exploration generates new ideas. These ideas then generate further explorations, and on this cycle goes indefinitely, often leaving project teams confused with this lack of clarity.</p>
+<p>What can make matters worse is that, if there was no business justification in the first place, the team may realize (after the fact) that the results have no impact.</p>
+<p>Scoping is the task of understanding, from a scientific and business perspective, what the investigation really wants to accomplish. Often there may be many competing objectives and constraints that must be properly balanced. The goal is to uncover important factors at the beginning of the project that can influence the outcome. A likely consequence of neglecting this step would be to expend a great deal of effort producing the correct answers to the wrong questions.</p>
+<p>There are many approaches to scoping a problem, here is only one approach. The GDSP SOW process is designed to be problem centric, rather than being focused first on solutions i.e.&nbsp;data/model/methodology. The rationale is to first define the scientific problem and the potential value before exploring the solution space.</p>
+<p>It should also be recognised that scoping is <strong>iterative</strong> - the project scope for an exploratory investigation may be refined both by the initial scoping process as well as during the project as more information is obtained.</p>
+<div class="columns">
+<div class="column" style="width:40%;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="scoping.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">The iterative phases of scoping.</figcaption>
 </figure>
 </div>
-<p>The iterative steps of project scoping:</p>
+</div><div class="column" style="width:60%;">
+<p><br> <br> <br></p>
 <ol type="1">
-<li>Objectives – capture, define and refine the goal and objective(s) of the project.</li>
-<li>Outcomes – capture what actions, decisions or interventions will the outcome of the project inform.</li>
-<li>Materials – what data and other resources are required to achieve these goals.</li>
-<li>Methods – What analyses need to be performed? What analysis type(s) and strategies are required (describe, detection, prediction, intervention, explanation? <span class="citation" data-cites="Hernan2019">(<a href="#ref-Hernan2019" role="doc-biblioref">Hernán, Hsu, and Healy 2019</a>)</span>.</li>
+<li><p><strong>Objectives</strong> – capture, define and refine the goal and objective(s) of the project. <br></p></li>
+<li><p><strong>Outcomes</strong> – capture what actions, decisions or interventions will the outcome of the project inform. <br></p></li>
+<li><p><strong>Materials</strong> – what data and other resources are required to achieve these goals. <br></p></li>
+<li><p><strong>Methods</strong> – What analyses need to be performed? What analysis type(s) and strategies are required (describe, detection, prediction, intervention, explanation? <span class="citation" data-cites="Hernan2019">(<a href="#ref-Hernan2019" role="doc-biblioref">Hernán, Hsu, and Healy 2019</a>)</span>.</p></li>
 </ol>
-</div></div><p>Exploratory work without clear objectives runs the risk of converging to a confusing cycle: exploration generates new ideas. These ideas then generate further explorations, and on this cycle goes indefinitely, often leaving project teams confused with this lack of clarity.</p>
-<p>What can make matters worse is that, if there was no business justification in the first place, the team may realize (after the fact) that the results have no impact.</p>
-<p>Scoping is the task of understanding, from a scientific and business perspective, what the investigation really wants to accomplish. Often there may be many competing objectives and constraints that must be properly balanced. The goal is to uncover important factors at the beginning of the project that can influence the outcome. A likely consequence of neglecting this step would be to expend a great deal of effort producing the correct answers to the wrong questions.</p>
-<p>There are many approaches to scoping a problem, here is only one approach. The GDSP SOW process is designed to be problem centric, rather than being focused first on solutions i.e.&nbsp;data/model/methodology. The rationale is to first define the scientific problem and the potential value before exploring the solution space.</p>
-<p>It should also be recognised that scoping is iterative - the project scope for an exploratory investigation may be refined both by the initial scoping process as well as during the project as more information is obtained.</p>
+</div>
+</div>
 </section>
 <section id="filling-out-the-sow" class="level1">
 <h1>Filling out the SoW</h1>

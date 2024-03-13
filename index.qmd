@@ -45,18 +45,6 @@ Project and SoW Accountability lies with the organization’s/department’s lea
 
 The aim of the GDSP SOW is to encourage teams to do disciplined research prior to commencing exploratory work; to ensure the project matches the needs of underlying questions and business decisions (i.e. the purpose).
 
-
-::: {.column-margin}
-![The iterative phases of scoping.](scoping.png)
-
-The iterative steps of project scoping: 
-
-(1) Objectives – capture, define and refine the goal and objective(s) of the project.
-(2) Outcomes – capture what actions, decisions or interventions will the outcome of the project inform. 
-(3) Materials – what data and other resources are required to achieve these goals.
-(4) Methods – What analyses need to be performed? What analysis type(s) and strategies are required (describe, detection, prediction, intervention, explanation? [@Hernan2019].
-:::
-
 Exploratory work without clear objectives runs the risk of converging to a confusing cycle: exploration generates new ideas. These ideas then generate further explorations, and on this cycle goes indefinitely, often leaving project teams confused with this lack of clarity.
 
 What can make matters worse is that, if there was no business justification in the first place, the team may realize (after the fact) that the results have no impact.
@@ -65,7 +53,29 @@ Scoping is the task of understanding, from a scientific and business perspective
 
 There are many approaches to scoping a problem, here is only one approach. The GDSP SOW process is designed to be problem centric, rather than being focused first on solutions i.e. data/model/methodology. The rationale is to first define the scientific problem and the potential value before exploring the solution space. 
 
-It should also be recognised that scoping is iterative - the project scope for an exploratory investigation may be refined both by the initial scoping process as well as during the project as more information is obtained. 
+It should also be recognised that scoping is **iterative** - the project scope for an exploratory investigation may be refined both by the initial scoping process as well as during the project as more information is obtained. 
+
+::: columns
+::: {.column width="40%"}
+![The iterative phases of scoping.](scoping.png)
+:::
+::: {.column width="60%"}
+
+<br>
+<br>
+<br>
+
+(1) **Objectives** – capture, define and refine the goal and objective(s) of the project. <br>
+
+(2) **Outcomes** – capture what actions, decisions or interventions will the outcome of the project inform. <br>
+
+(3) **Materials** – what data and other resources are required to achieve these goals. <br>
+
+(4) **Methods** – What analyses need to be performed? What analysis type(s) and strategies are required (describe, detection, prediction, intervention, explanation? [@Hernan2019].
+
+:::
+:::
+
 
 
 #	Filling out the SoW
