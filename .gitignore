@@ -4,5 +4,6 @@
 .Ruserdata
 .DS_Store
 README.html
-
+/docs/
+/docs/sitemap.xml
 /.quarto/
