@@ -1,6 +1,6 @@
 ---
 title: "GDSP SoW guide"
-subtitle: "Guide for scoping and filling out the statement of work."
+subtitle: "Guide for scoping and filling out a statement of work."
 description: "This is a guide for filling out the GDSP statement of work (SOW) document"
 categories: [scoping, planning, guide, SOW]
 date: today

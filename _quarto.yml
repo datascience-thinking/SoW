@@ -14,7 +14,7 @@ website:
   navbar:
     background: "#A7D5E8"
     title: SoW
-    logo: "assets/gdsp-icon.png"
+    logo: "assets/sow_steps.png"
     align: center
     #title: false
     collapse-below: lg
