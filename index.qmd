@@ -16,7 +16,7 @@ bibliography: references.bib
 
 ## GDSP SoW goal
 
-The aim of this document is to ensure the right business and scientific questions are addressed, the right analyses (if any) are planned to address those questions, and to assess the necessary materials and resources required to execute the project [@CRISP-DM]. This is the practice of scoping.
+The aim of this document is to ensure the right business and scientific questions are addressed, the right analyses (if any) are planned to address those questions, and to assess the necessary materials and resources required to execute the project [@CRISP-DM; @peterson2022reaping]. This is the practice of scoping.
 
 Scoping is the task of problem formulation; to capture and clarify key information such as: 
 
